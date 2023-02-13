@@ -112,7 +112,7 @@ switchtime = ""
 
 basetime = "00:00:08,500"
 timeDelta =  datetime.strptime(basetime, "%H:%M:%S,%f") - datetime.strptime("00:00:00,100", "%H:%M:%S,%f")
-for turnCount in range(1, 3): 
+for turnCount in range(1, 4): 
     turnCount = str(turnCount)
     switchtime = ""
     turnCountFlag = {}
@@ -345,7 +345,7 @@ for turnCount in turnCountDict:
 
 
 # turnCountList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-turnCountList = [1, 2]
+turnCountList = [1, 2, 3]
 
 
 
