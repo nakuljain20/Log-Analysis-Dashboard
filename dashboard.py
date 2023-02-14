@@ -12,8 +12,9 @@ st.title("Data Logger")
 
 
 log_file = st.file_uploader("Upload a file", accept_multiple_files=False)
-
+print(log_file)
 if log_file is None: 
+    print("log file none")
     log_file = "./Logs/smartfox.log"
 
 userName = st.text_input("Enter user name: ")
