@@ -77,7 +77,7 @@ else:
     st.write("No room found ")
 
 st.write(room_name, " ", select)
-if room_name == "None":
+if room_name != "None":
     st.stop()
 
 
