@@ -1,0 +1,374 @@
+14 Feb 2023 | 00:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 00:55:15,599 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 00:55:15,600 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 00:55:15,600 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 00:55:15,600 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 01:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 01:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 01:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 01:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 01:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 02:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 02:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 02:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 02:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 02:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 03:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 03:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 03:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 03:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 03:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 04:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 04:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 04:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 04:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 04:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 05:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 05:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 05:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 05:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 05:55:15,598 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+14 Feb 2023 | 06:38:23,814 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 44, Type: WEBSOCKET, Logged: No, IP: 203.200.25.244 } on Server port: 8080 <---> 60311
+14 Feb 2023 | 06:38:24,263 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 33, Priv: 0, Sess: 203.200.25.244:60311 ) , Type: JavaScript
+14 Feb 2023 | 06:38:24,266 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 33, Priv: 0, Sess: 203.200.25.244:60311 ) , asSpect: false
+14 Feb 2023 | 06:43:29,772 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 45, Type: DEFAULT, Logged: No, IP: 203.200.25.244:50947 } on Server port: 9933 <---> 50947
+14 Feb 2023 | 06:43:30,177 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#34, Id: 34, Priv: 0, Sess: 203.200.25.244:50947 ) , Type: Unity / .Net
+14 Feb 2023 | 06:43:43,837 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 45, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:50947 }
+14 Feb 2023 | 06:43:43,837 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#34, Id: 34, Priv: 0, Sess: 203.200.25.244:50947 ) , SessionLen: 13660, Type: Unity / .Net
+14 Feb 2023 | 06:43:43,837 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 06:43:46,361 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 46, Type: DEFAULT, Logged: No, IP: 203.200.25.244:50960 } on Server port: 9933 <---> 50960
+14 Feb 2023 | 06:43:46,745 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#35, Id: 35, Priv: 0, Sess: 203.200.25.244:50960 ) , Type: Unity / .Net
+14 Feb 2023 | 06:43:59,171 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 46, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:50960 }
+14 Feb 2023 | 06:43:59,171 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#35, Id: 35, Priv: 0, Sess: 203.200.25.244:50960 ) , SessionLen: 12426, Type: Unity / .Net
+14 Feb 2023 | 06:43:59,171 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 06:49:50,395 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 47, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51110 } on Server port: 9933 <---> 51110
+14 Feb 2023 | 06:49:50,639 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#36, Id: 36, Priv: 0, Sess: 203.200.25.244:51110 ) , Type: Unity / .Net
+14 Feb 2023 | 06:50:14,468 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 47, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51110 }
+14 Feb 2023 | 06:50:14,468 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#36, Id: 36, Priv: 0, Sess: 203.200.25.244:51110 ) , SessionLen: 23829, Type: Unity / .Net
+14 Feb 2023 | 06:50:14,470 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 06:50:17,030 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 48, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51122 } on Server port: 9933 <---> 51122
+14 Feb 2023 | 06:50:17,311 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#37, Id: 37, Priv: 0, Sess: 203.200.25.244:51122 ) , Type: Unity / .Net
+14 Feb 2023 | 06:50:28,063 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 48, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51122 }
+14 Feb 2023 | 06:50:28,063 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#37, Id: 37, Priv: 0, Sess: 203.200.25.244:51122 ) , SessionLen: 10752, Type: Unity / .Net
+14 Feb 2023 | 06:50:28,063 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 06:51:59,799 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 44, Type: WEBSOCKET, Logged: Yes, IP: 203.200.25.244:60311 }
+14 Feb 2023 | 06:51:59,800 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 33, Priv: 0, Sess: 203.200.25.244:60311 ) , SessionLen: 815537, Type: JavaScript
+14 Feb 2023 | 06:52:06,660 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 49, Type: WEBSOCKET, Logged: No, IP: 203.200.25.244 } on Server port: 8080 <---> 63843
+14 Feb 2023 | 06:52:07,091 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 38, Priv: 0, Sess: 203.200.25.244:63843 ) , Type: JavaScript
+14 Feb 2023 | 06:52:07,093 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 38, Priv: 0, Sess: 203.200.25.244:63843 ) , asSpect: false
+14 Feb 2023 | 06:53:05,326 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 50, Type: DEFAULT, Logged: No, IP: 203.200.25.244:52192 } on Server port: 9933 <---> 52192
+14 Feb 2023 | 06:53:05,680 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#39, Id: 39, Priv: 0, Sess: 203.200.25.244:52192 ) , Type: Unity / .Net
+14 Feb 2023 | 06:54:53,617 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 50, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:52192 }
+14 Feb 2023 | 06:54:53,617 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#39, Id: 39, Priv: 0, Sess: 203.200.25.244:52192 ) , SessionLen: 107937, Type: Unity / .Net
+14 Feb 2023 | 06:54:53,617 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 06:54:56,043 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 51, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51166 } on Server port: 9933 <---> 51166
+14 Feb 2023 | 06:54:56,382 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#40, Id: 40, Priv: 0, Sess: 203.200.25.244:51166 ) , Type: Unity / .Net
+14 Feb 2023 | 06:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 06:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+14 Feb 2023 | 06:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/1
+14 Feb 2023 | 06:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 06:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/2
+14 Feb 2023 | 06:57:12,521 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 51, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51166 }
+14 Feb 2023 | 06:57:12,521 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#40, Id: 40, Priv: 0, Sess: 203.200.25.244:51166 ) , SessionLen: 136140, Type: Unity / .Net
+14 Feb 2023 | 06:57:12,521 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:00:44,491 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 52, Type: DEFAULT, Logged: No, IP: 203.200.25.244:56800 } on Server port: 9933 <---> 56800
+14 Feb 2023 | 07:00:44,809 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#41, Id: 41, Priv: 0, Sess: 203.200.25.244:56800 ) , Type: Unity / .Net
+14 Feb 2023 | 07:01:18,618 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 52, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:56800 }
+14 Feb 2023 | 07:01:18,618 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#41, Id: 41, Priv: 0, Sess: 203.200.25.244:56800 ) , SessionLen: 33809, Type: Unity / .Net
+14 Feb 2023 | 07:01:18,618 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:01:42,272 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 53, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51210 } on Server port: 9933 <---> 51210
+14 Feb 2023 | 07:01:42,594 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#42, Id: 42, Priv: 0, Sess: 203.200.25.244:51210 ) , Type: Unity / .Net
+14 Feb 2023 | 07:01:55,207 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 49, Type: WEBSOCKET, Logged: Yes, IP: 203.200.25.244:63843 }
+14 Feb 2023 | 07:01:55,207 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 38, Priv: 0, Sess: 203.200.25.244:63843 ) , SessionLen: 588117, Type: JavaScript
+14 Feb 2023 | 07:02:01,266 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 54, Type: WEBSOCKET, Logged: No, IP: 203.200.25.244 } on Server port: 8080 <---> 49992
+14 Feb 2023 | 07:02:01,690 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 43, Priv: 0, Sess: 203.200.25.244:49992 ) , Type: JavaScript
+14 Feb 2023 | 07:02:01,694 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 43, Priv: 0, Sess: 203.200.25.244:49992 ) , asSpect: false
+14 Feb 2023 | 07:03:12,662 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 53, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51210 }
+14 Feb 2023 | 07:03:12,662 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#42, Id: 42, Priv: 0, Sess: 203.200.25.244:51210 ) , SessionLen: 90068, Type: Unity / .Net
+14 Feb 2023 | 07:03:12,662 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:03:14,165 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 55, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51224 } on Server port: 9933 <---> 51224
+14 Feb 2023 | 07:03:14,448 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#44, Id: 44, Priv: 0, Sess: 203.200.25.244:51224 ) , Type: Unity / .Net
+14 Feb 2023 | 07:03:23,736 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 55, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51224 }
+14 Feb 2023 | 07:03:23,736 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#44, Id: 44, Priv: 0, Sess: 203.200.25.244:51224 ) , SessionLen: 9288, Type: Unity / .Net
+14 Feb 2023 | 07:03:23,736 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:03:56,639 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 56, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51241 } on Server port: 9933 <---> 51241
+14 Feb 2023 | 07:03:56,900 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#45, Id: 45, Priv: 0, Sess: 203.200.25.244:51241 ) , Type: Unity / .Net
+14 Feb 2023 | 07:04:40,124 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 57, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51257 } on Server port: 9933 <---> 51257
+14 Feb 2023 | 07:04:40,422 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#46, Id: 46, Priv: 0, Sess: 203.200.25.244:51257 ) , Type: Unity / .Net
+14 Feb 2023 | 07:04:42,697 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 56, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51241 }
+14 Feb 2023 | 07:04:42,697 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#45, Id: 45, Priv: 0, Sess: 203.200.25.244:51241 ) , SessionLen: 45797, Type: Unity / .Net
+14 Feb 2023 | 07:04:42,697 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:04:51,052 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:05:09,295 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:05:12,787 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 57, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51257 }
+14 Feb 2023 | 07:05:12,787 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#46, Id: 46, Priv: 0, Sess: 203.200.25.244:51257 ) , SessionLen: 32365, Type: Unity / .Net
+14 Feb 2023 | 07:05:12,787 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:05:15,321 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 58, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51266 } on Server port: 9933 <---> 51266
+14 Feb 2023 | 07:05:15,649 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#47, Id: 47, Priv: 0, Sess: 203.200.25.244:51266 ) , Type: Unity / .Net
+14 Feb 2023 | 07:05:25,617 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 58, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51266 }
+14 Feb 2023 | 07:05:25,617 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#47, Id: 47, Priv: 0, Sess: 203.200.25.244:51266 ) , SessionLen: 9968, Type: Unity / .Net
+14 Feb 2023 | 07:05:25,617 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:23:29,494 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 59, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51330 } on Server port: 9933 <---> 51330
+14 Feb 2023 | 07:23:30,541 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#48, Id: 48, Priv: 0, Sess: 203.200.25.244:51330 ) , Type: Unity / .Net
+14 Feb 2023 | 07:23:37,358 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:23:37,971 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:23:45,303 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 59, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51330 }
+14 Feb 2023 | 07:23:45,303 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#48, Id: 48, Priv: 0, Sess: 203.200.25.244:51330 ) , SessionLen: 14762, Type: Unity / .Net
+14 Feb 2023 | 07:23:45,303 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:23:47,888 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 60, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51344 } on Server port: 9933 <---> 51344
+14 Feb 2023 | 07:23:48,200 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#49, Id: 49, Priv: 0, Sess: 203.200.25.244:51344 ) , Type: Unity / .Net
+14 Feb 2023 | 07:23:54,719 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 60, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51344 }
+14 Feb 2023 | 07:23:54,719 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#49, Id: 49, Priv: 0, Sess: 203.200.25.244:51344 ) , SessionLen: 6519, Type: Unity / .Net
+14 Feb 2023 | 07:23:54,720 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:24:51,900 | INFO  | http-nio-8080-exec-1 | Extensions |     | {BackendExtension}: Himanshu -- inside handleInternalMessage 
+14 Feb 2023 | 07:27:30,077 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 61, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51369 } on Server port: 9933 <---> 51369
+14 Feb 2023 | 07:27:30,512 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#50, Id: 50, Priv: 0, Sess: 203.200.25.244:51369 ) , Type: Unity / .Net
+14 Feb 2023 | 07:27:53,178 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:27:54,682 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 61, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51369 }
+14 Feb 2023 | 07:27:54,682 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#50, Id: 50, Priv: 0, Sess: 203.200.25.244:51369 ) , SessionLen: 24170, Type: Unity / .Net
+14 Feb 2023 | 07:27:54,682 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:27:57,430 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 62, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51380 } on Server port: 9933 <---> 51380
+14 Feb 2023 | 07:27:57,767 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#51, Id: 51, Priv: 0, Sess: 203.200.25.244:51380 ) , Type: Unity / .Net
+14 Feb 2023 | 07:28:05,116 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 62, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51380 }
+14 Feb 2023 | 07:28:05,116 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#51, Id: 51, Priv: 0, Sess: 203.200.25.244:51380 ) , SessionLen: 7349, Type: Unity / .Net
+14 Feb 2023 | 07:28:05,116 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:36:11,060 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 63, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51497 } on Server port: 9933 <---> 51497
+14 Feb 2023 | 07:36:11,454 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#52, Id: 52, Priv: 0, Sess: 203.200.25.244:51497 ) , Type: Unity / .Net
+14 Feb 2023 | 07:36:28,632 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 63, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51497 }
+14 Feb 2023 | 07:36:28,633 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#52, Id: 52, Priv: 0, Sess: 203.200.25.244:51497 ) , SessionLen: 17179, Type: Unity / .Net
+14 Feb 2023 | 07:36:28,633 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:36:31,255 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 64, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51508 } on Server port: 9933 <---> 51508
+14 Feb 2023 | 07:36:31,573 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#53, Id: 53, Priv: 0, Sess: 203.200.25.244:51508 ) , Type: Unity / .Net
+14 Feb 2023 | 07:36:38,791 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:36:44,877 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 64, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51508 }
+14 Feb 2023 | 07:36:44,877 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#53, Id: 53, Priv: 0, Sess: 203.200.25.244:51508 ) , SessionLen: 13304, Type: Unity / .Net
+14 Feb 2023 | 07:36:44,877 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:36:47,364 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 65, Type: DEFAULT, Logged: No, IP: 203.200.25.244:57897 } on Server port: 9933 <---> 57897
+14 Feb 2023 | 07:36:47,640 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#54, Id: 54, Priv: 0, Sess: 203.200.25.244:57897 ) , Type: Unity / .Net
+14 Feb 2023 | 07:37:19,597 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 66, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51528 } on Server port: 9933 <---> 51528
+14 Feb 2023 | 07:37:19,925 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#55, Id: 55, Priv: 0, Sess: 203.200.25.244:51528 ) , Type: Unity / .Net
+14 Feb 2023 | 07:37:21,754 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 65, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:57897 }
+14 Feb 2023 | 07:37:21,755 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#54, Id: 54, Priv: 0, Sess: 203.200.25.244:57897 ) , SessionLen: 34115, Type: Unity / .Net
+14 Feb 2023 | 07:37:21,755 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:37:29,015 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:37:55,019 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 66, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51528 }
+14 Feb 2023 | 07:37:55,019 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#55, Id: 55, Priv: 0, Sess: 203.200.25.244:51528 ) , SessionLen: 35094, Type: Unity / .Net
+14 Feb 2023 | 07:37:55,019 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:37:57,726 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 67, Type: DEFAULT, Logged: No, IP: 203.200.25.244:63393 } on Server port: 9933 <---> 63393
+14 Feb 2023 | 07:37:58,160 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#56, Id: 56, Priv: 0, Sess: 203.200.25.244:63393 ) , Type: Unity / .Net
+14 Feb 2023 | 07:39:04,953 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 67, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:63393 }
+14 Feb 2023 | 07:39:04,953 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#56, Id: 56, Priv: 0, Sess: 203.200.25.244:63393 ) , SessionLen: 66793, Type: Unity / .Net
+14 Feb 2023 | 07:39:04,953 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:39:09,180 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 68, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51561 } on Server port: 9933 <---> 51561
+14 Feb 2023 | 07:39:09,543 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#57, Id: 57, Priv: 0, Sess: 203.200.25.244:51561 ) , Type: Unity / .Net
+14 Feb 2023 | 07:39:15,777 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 68, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51561 }
+14 Feb 2023 | 07:39:15,777 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#57, Id: 57, Priv: 0, Sess: 203.200.25.244:51561 ) , SessionLen: 6234, Type: Unity / .Net
+14 Feb 2023 | 07:39:15,777 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:39:35,158 | INFO  | http-nio-8080-exec-1 | Extensions |     | {BackendExtension}: Himanshu -- inside handleInternalMessage 
+14 Feb 2023 | 07:40:12,600 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 69, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51574 } on Server port: 9933 <---> 51574
+14 Feb 2023 | 07:40:12,918 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#58, Id: 58, Priv: 0, Sess: 203.200.25.244:51574 ) , Type: Unity / .Net
+14 Feb 2023 | 07:40:44,028 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | java.lang.ArrayIndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: Index -1 out of bounds for length 6
+Description: Error while handling client request in extension: { Ext: BackendExtension, Type: JAVA, Lev: ZONE, { Zone: UIExtension }, {} }
+Extension Cmd: cardDetails
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.football.domainLayer.bussinessLogic.BagHelper.getCoins(BagHelper.java:195)
+com.football.domainLayer.bussinessLogic.BagHelper.getBasicCardDetails(BagHelper.java:60)
+com.football.domainLayer.dataOperations.UserDetailsOperation.getCardDetails(UserDetailsOperation.java:186)
+com.football.databaseManager.implementations.UserManager.getCardDetails(UserManager.java:174)
+com.football.requestProcessing.implementations.UserInfoProcessing.doProcessing(UserInfoProcessing.java:37)
+com.football.authentication.DatabaseRequestHandler.handleClientRequest(DatabaseRequestHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:231)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Feb 2023 | 07:41:06,269 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 69, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51574 }
+14 Feb 2023 | 07:41:06,269 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#58, Id: 58, Priv: 0, Sess: 203.200.25.244:51574 ) , SessionLen: 53351, Type: Unity / .Net
+14 Feb 2023 | 07:41:06,270 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:44:20,214 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 70, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51947 } on Server port: 9933 <---> 51947
+14 Feb 2023 | 07:44:20,891 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#59, Id: 59, Priv: 0, Sess: 203.200.25.244:51947 ) , Type: Unity / .Net
+14 Feb 2023 | 07:44:36,332 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 70, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51947 }
+14 Feb 2023 | 07:44:36,333 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#59, Id: 59, Priv: 0, Sess: 203.200.25.244:51947 ) , SessionLen: 15442, Type: Unity / .Net
+14 Feb 2023 | 07:44:36,333 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:44:39,474 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 71, Type: DEFAULT, Logged: No, IP: 203.200.25.244:51979 } on Server port: 9933 <---> 51979
+14 Feb 2023 | 07:44:40,159 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#60, Id: 60, Priv: 0, Sess: 203.200.25.244:51979 ) , Type: Unity / .Net
+14 Feb 2023 | 07:44:57,494 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 71, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51979 }
+14 Feb 2023 | 07:44:57,494 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#60, Id: 60, Priv: 0, Sess: 203.200.25.244:51979 ) , SessionLen: 17335, Type: Unity / .Net
+14 Feb 2023 | 07:44:57,494 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:45:00,545 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 72, Type: DEFAULT, Logged: No, IP: 203.200.25.244:52012 } on Server port: 9933 <---> 52012
+14 Feb 2023 | 07:45:01,202 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#61, Id: 61, Priv: 0, Sess: 203.200.25.244:52012 ) , Type: Unity / .Net
+14 Feb 2023 | 07:45:30,354 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 72, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:52012 }
+14 Feb 2023 | 07:45:30,354 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#61, Id: 61, Priv: 0, Sess: 203.200.25.244:52012 ) , SessionLen: 29153, Type: Unity / .Net
+14 Feb 2023 | 07:45:30,354 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:45:33,546 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 73, Type: DEFAULT, Logged: No, IP: 203.200.25.244:52055 } on Server port: 9933 <---> 52055
+14 Feb 2023 | 07:45:34,424 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#62, Id: 62, Priv: 0, Sess: 203.200.25.244:52055 ) , Type: Unity / .Net
+14 Feb 2023 | 07:45:39,695 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 73, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:52055 }
+14 Feb 2023 | 07:45:39,695 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#62, Id: 62, Priv: 0, Sess: 203.200.25.244:52055 ) , SessionLen: 5271, Type: Unity / .Net
+14 Feb 2023 | 07:45:39,695 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 07:45:42,623 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 74, Type: DEFAULT, Logged: No, IP: 203.200.25.244:52084 } on Server port: 9933 <---> 52084
+14 Feb 2023 | 07:45:43,241 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#63, Id: 63, Priv: 0, Sess: 203.200.25.244:52084 ) , Type: Unity / .Net
+14 Feb 2023 | 07:47:31,951 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 74, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:52084 }
+14 Feb 2023 | 07:47:31,951 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#63, Id: 63, Priv: 0, Sess: 203.200.25.244:52084 ) , SessionLen: 108711, Type: Unity / .Net
+14 Feb 2023 | 07:47:31,951 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
