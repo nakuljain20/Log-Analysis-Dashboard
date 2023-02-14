@@ -1128,3 +1128,16 @@ java.base/java.lang.Thread.run(Thread.java:829)
 14 Feb 2023 | 08:18:56,054 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 99, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:44950 }
 14 Feb 2023 | 08:18:56,055 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#82, Id: 82, Priv: 0, Sess: 203.200.25.244:44950 ) , SessionLen: 128308, Type: Unity / .Net
 14 Feb 2023 | 08:18:56,055 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+14 Feb 2023 | 08:36:29,472 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 54, Type: WEBSOCKET, Logged: Yes, IP: 203.200.25.244:49992 }
+14 Feb 2023 | 08:36:29,472 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 54, Type: WEBSOCKET, Logged: Yes, IP: 203.200.25.244:49992 }
+14 Feb 2023 | 08:36:29,473 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 43, Priv: 0, Sess: 203.200.25.244:49992 ) , SessionLen: 5667783, Type: JavaScript
+14 Feb 2023 | 08:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/2
+14 Feb 2023 | 08:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+14 Feb 2023 | 08:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/2
+14 Feb 2023 | 08:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 08:55:15,598 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/4
+14 Feb 2023 | 09:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FootballExtension }, CCU: 0/0
+14 Feb 2023 | 09:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+14 Feb 2023 | 09:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: UIExtension }, CCU: 0/0
+14 Feb 2023 | 09:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+14 Feb 2023 | 09:55:15,598 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

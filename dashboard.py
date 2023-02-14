@@ -368,11 +368,22 @@ st.line_chart(turnCountdf)
 
 # print(len(roomNamesList))
 # print(len(userGoneHandlerDict))
-st.write(" User gone handler event ")
+st.write(" Possible Events ")
 
-userGonePercent = len(userGoneHandlerDict)/len(roomNamesList) *  100
-st.write("Percentage of games ended by user gone : " , userGonePercent)
+# userGonePercent = len(userGoneHandlerDict)/len(roomNamesList) *  100
+# st.write("Percentage of games ended by user gone : " , userGonePercent)
 
+df = pd.DataFrame.from_dict(turnCountDict['1']).transpose()
+TotalGames = len(df)
+userGoneGames = len(df[df["userGone"] == True])
+stuckGames = len(df[df["stuckGame"] == True])
+notEndGames = len(df[df["gameEnd"] == False])
+
+columns = ["User Gone Games", "Stuck Games", "Not Ended Games"]
+value = [userGoneGames, stuckGames, notEndGames]
+
+chart_data = pd.DataFrame(index=columns, columns=value)
+st.bar_chart(chart_data)
 
 turnCount = st.text_input("Enter Turn Count: ", value="1")
 
