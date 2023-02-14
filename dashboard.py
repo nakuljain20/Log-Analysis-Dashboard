@@ -77,8 +77,6 @@ else:
     st.write("No room found ")
 
 st.write(room_name, " ", select)
-if room_name != "None":
-    st.stop()
 
 
 
@@ -393,11 +391,11 @@ st.bar_chart(chart_data)
 
 st.write(chart_data)
 
-if st.button("Show Games where user gone handler called") :
-    st.write(df[df["userGone"] == True])
+st.write("User gone games")
+st.write(df[df["userGone"] == True])
 
-if st.button("Show Stuck Games list") :
-    st.write(df[df["stuckGame"] == True])
+st.write("stuck games")
+st.write(df[df["stuckGame"] == True])
 
 
 turnCount = st.text_input("Enter Turn Count: ", value="1")
