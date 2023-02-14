@@ -76,6 +76,8 @@ if room_name in roomdetailsDict:
 else: 
     st.write("No room found ")
 
+if room_name != select:
+    st.stop
 
 
 
@@ -120,6 +122,9 @@ switchtime = ""
 
 basetime = "00:00:08,500"
 timeDelta =  datetime.strptime(basetime, "%H:%M:%S,%f") - datetime.strptime("00:00:00,100", "%H:%M:%S,%f")
+
+
+
 for turnCount in range(1, 4): 
     turnCount = str(turnCount)
     switchtime = ""
