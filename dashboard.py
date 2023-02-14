@@ -15,9 +15,9 @@ log_file = st.file_uploader("Upload a file", accept_multiple_files=False)
 print(log_file)
 if log_file is None: 
     st.write("log file none")
-    log_file = "./Logs/smartfox.log"
-
-st.write(log_file)
+    file = "./Logs/smartfox.log"
+    log_file = open(file, 'r')
+# st.write(log_file)
 userName = st.text_input("Enter user name: ")
 
 
