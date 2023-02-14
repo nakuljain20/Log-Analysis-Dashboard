@@ -385,6 +385,15 @@ value = [userGoneGames, stuckGames, notEndGames]
 chart_data = pd.DataFrame({'index' : columnName, 'number of games' : value}).set_index('index')
 st.bar_chart(chart_data)
 
+st.write(chart_data)
+
+if st.button("Show Games where user gone handler called") :
+    st.write(df[df["userGone"] == True])
+
+if st.button("Show Stuck Games list") :
+    st.write(df[df["stuckGame"] == True])
+
+
 turnCount = st.text_input("Enter Turn Count: ", value="1")
 
 if turnCount in turnCountDict: 
