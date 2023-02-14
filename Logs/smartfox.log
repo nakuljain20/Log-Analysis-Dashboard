@@ -1056,3 +1056,75 @@ java.base/java.lang.Thread.run(Thread.java:829)
 14 Feb 2023 | 08:16:10,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 5; Response Message: keeper_response; Extra_Info: saveType: Random_Keeper 
 14 Feb 2023 | 08:16:13,930 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 6; Response Message: switch_turn 
 14 Feb 2023 | 08:16:13,930 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 6; Response Message: switch_turn 
+14 Feb 2023 | 08:16:16,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 6; Response Message: striker_response 
+14 Feb 2023 | 08:16:16,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 6; Response Message: striker_response 
+14 Feb 2023 | 08:16:17,617 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 6; Request Message: keeper_response 
+14 Feb 2023 | 08:16:17,618 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 6; Response Message: keeper_response 
+14 Feb 2023 | 08:16:17,618 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 6; Response Message: keeper_response 
+14 Feb 2023 | 08:16:17,618 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 6; Info: Goal Missed; Save_value 1 
+14 Feb 2023 | 08:16:20,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 7; Response Message: switch_turn 
+14 Feb 2023 | 08:16:20,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 7; Response Message: switch_turn 
+14 Feb 2023 | 08:16:22,475 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 7; Request Message: striker_response 
+14 Feb 2023 | 08:16:22,475 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 7; Response Message: striker_response 
+14 Feb 2023 | 08:16:22,475 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 7; Response Message: striker_response 
+14 Feb 2023 | 08:16:23,179 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 7; Info: Goal Missed; Save_value -1 
+14 Feb 2023 | 08:16:23,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 7; Response Message: keeper_response; Extra_Info: saveType: Random_Keeper 
+14 Feb 2023 | 08:16:23,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 7; Response Message: keeper_response; Extra_Info: saveType: Random_Keeper 
+14 Feb 2023 | 08:16:26,430 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 8; Response Message: switch_turn 
+14 Feb 2023 | 08:16:26,430 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 8; Response Message: switch_turn 
+14 Feb 2023 | 08:16:28,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 8; Response Message: striker_response 
+14 Feb 2023 | 08:16:28,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 8; Response Message: striker_response 
+14 Feb 2023 | 08:16:29,974 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 8; Request Message: keeper_response 
+14 Feb 2023 | 08:16:29,974 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 8; Response Message: keeper_response 
+14 Feb 2023 | 08:16:29,975 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 8; Response Message: keeper_response 
+14 Feb 2023 | 08:16:29,975 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 8; Info: Goal 
+14 Feb 2023 | 08:16:33,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 9; Response Message: switch_turn 
+14 Feb 2023 | 08:16:33,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 9; Response Message: switch_turn 
+14 Feb 2023 | 08:16:34,881 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 9; Request Message: striker_response 
+14 Feb 2023 | 08:16:34,881 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 9; Response Message: striker_response 
+14 Feb 2023 | 08:16:34,881 | INFO  | SFSWorker:Ext:2 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 9; Response Message: striker_response 
+14 Feb 2023 | 08:16:35,679 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 9; Info: Goal Missed; Save_value 1 
+14 Feb 2023 | 08:16:35,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 9; Response Message: keeper_response; Extra_Info: saveType: Random_Keeper 
+14 Feb 2023 | 08:16:35,680 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 9; Response Message: keeper_response; Extra_Info: saveType: Random_Keeper 
+14 Feb 2023 | 08:16:38,930 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 10; Response Message: switch_turn 
+14 Feb 2023 | 08:16:38,930 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 10; Response Message: switch_turn 
+14 Feb 2023 | 08:16:41,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 10; Response Message: striker_response 
+14 Feb 2023 | 08:16:41,180 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 10; Response Message: striker_response 
+14 Feb 2023 | 08:16:42,609 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 10; Request Message: keeper_response 
+14 Feb 2023 | 08:16:42,609 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 1; Turn_count: 10; Response Message: keeper_response 
+14 Feb 2023 | 08:16:42,609 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 10; Response Message: keeper_response 
+14 Feb 2023 | 08:16:42,609 | INFO  | SFSWorker:Ext:1 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; SFS_PlayerId: 2; Turn_count: 10; Info: Goal Missed; Save_value 1 
+14 Feb 2023 | 08:16:45,687 | INFO  | pool-1-thread-4 | Extensions |     | {FootballExtension}: Room_name: Guest#8008:15:29.810703; Winner_player_ID: 1; Player_1_goals: 2; Player_2_goals: 1; Player_1_goals_list: [1, 0, 1, 0, 0]; Player_2_goals_list: [0, 0, 0, 1, 0] 
+14 Feb 2023 | 08:16:45,688 | INFO  | pool-1-thread-4 | v2.entities.SFSUser |     | Can't find playerID -- User: Guest#8008:15:29.810703bot is not joined in the requested Room: [ Room: Guest#8008:15:29.810703, Id: 11, Group: tier1, isGame: true ]
+14 Feb 2023 | 08:16:45,688 | INFO  | pool-1-thread-4 | v2.api.SFSApi |     | User logout: { Zone: FootballExtension }, ( User Name: Guest#8008:15:29.810703bot, Id: 81, Priv: 0, Sess: NO_IP ) , SessionLen: 70508, Type: null
+14 Feb 2023 | 08:16:45,688 | INFO  | pool-1-thread-4 | entities.managers.SFSRoomManager |     | Room removed: { Zone: FootballExtension }, [ Room: Guest#8008:15:29.810703, Id: 11, Group: tier1, isGame: true ], Duration: 75878
+14 Feb 2023 | 08:16:47,184 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: FootballExtension }, RoomId: 11
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+14 Feb 2023 | 08:16:47,413 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 99, Type: DEFAULT, Logged: No, IP: 203.200.25.244:44950 } on Server port: 9933 <---> 44950
+14 Feb 2023 | 08:16:47,436 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User logout: { Zone: FootballExtension }, ( User Name: Guest#80, Id: 80, Priv: 0, Sess: 203.200.25.244:44940 ) , SessionLen: 77933, Type: Unity / .Net
+14 Feb 2023 | 08:16:47,748 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#82, Id: 82, Priv: 0, Sess: 203.200.25.244:44950 ) , Type: Unity / .Net
+14 Feb 2023 | 08:17:25,675 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 96, Type: DEFAULT, Logged: No, IP: 203.200.25.244:44940 }
+14 Feb 2023 | 08:17:27,150 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 100, Type: DEFAULT, Logged: No, IP: 203.200.25.244:44956 } on Server port: 9933 <---> 44956
+14 Feb 2023 | 08:17:27,150 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.bitswarm.exceptions.SessionReconnectionException: Session Reconnection failure. The passed Session is not managed by the ReconnectionManager: java.nio.channels.SocketChannel[connected local=/172.31.2.27:9933 remote=/203.200.25.244:44956]
+	com.smartfoxserver.bitswarm.sessions.DefaultReconnectionManager.reconnectSession(DefaultReconnectionManager.java:155)
+	com.smartfoxserver.bitswarm.sessions.DefaultSessionManager.reconnectSession(DefaultSessionManager.java:373)
+	com.smartfoxserver.v2.controllers.system.Handshake.execute(Handshake.java:68)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:191)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:146)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+14 Feb 2023 | 08:17:27,365 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 100, Type: DEFAULT, Logged: No, IP: 203.200.25.244:44956 }
+14 Feb 2023 | 08:18:56,054 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 99, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:44950 }
+14 Feb 2023 | 08:18:56,055 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#82, Id: 82, Priv: 0, Sess: 203.200.25.244:44950 ) , SessionLen: 128308, Type: Unity / .Net
+14 Feb 2023 | 08:18:56,055 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
