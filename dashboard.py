@@ -16,6 +16,7 @@ print(log_file)
 if log_file is None: 
     st.write("log file none")
     file = "./Logs/smartfox.log"
+    st.write("log file ", file)
     log_file = open(file, 'rb')
 # st.write(log_file)
 userName = st.text_input("Enter user name: ")
