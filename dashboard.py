@@ -382,8 +382,8 @@ notEndGames = len(df[df["gameEnd"] == False])
 columns = ["User Gone Games", "Stuck Games", "Not Ended Games"]
 value = [userGoneGames, stuckGames, notEndGames]
 
-chart_data = pd.DataFrame(index=columns, columns=value)
-st.bar_chart(chart_data)
+# chart_data = pd.DataFrame(index=columns, columns=value)
+st.bar_chart(value)
 
 turnCount = st.text_input("Enter Turn Count: ", value="1")
 
