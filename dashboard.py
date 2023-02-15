@@ -10,15 +10,7 @@ st.set_page_config(layout="wide")
 
 st.title("Data Logger")
 
-
 log_file = st.file_uploader("Upload a file", accept_multiple_files=False)
-print(log_file)
-if log_file is None: 
-    st.write("log file none")
-    file = "./Logs/smartfox.log"
-    st.write("log file ", file)
-    log_file = open(file, 'rb')
-# st.write(log_file)
 userName = st.text_input("Enter user name: ")
 
 
@@ -76,7 +68,6 @@ if room_name in roomdetailsDict:
 else: 
     st.write("No room found ")
 
-st.write(room_name, " ", select)
 
 
 
@@ -109,20 +100,17 @@ strikerResponseTimeDict = {}
 keeperResponseTimeDict = {}
 nextSwitchTurnTimeDict = {}
 timeoutTimeDict = {}
-appPausedTimeDict = {}
 gameEndDict = {}
 turnCountDict = {}
 userGoneHandlerDict = {}
 appPauseFlag = {}
 stuckGames = {}
 
-switchtime = ""
 
 
 basetime = "00:00:08,500"
 timeDelta =  datetime.strptime(basetime, "%H:%M:%S,%f") - datetime.strptime("00:00:00,100", "%H:%M:%S,%f")
-
-
+prev_line = None
 for line in lines:
     line = line.decode()
     roomName = ""
@@ -219,6 +207,8 @@ for line in lines:
                 stuckGames[roomName] = True
     
     
+
+
 for turnCount in range(1, 11):
     turnCount = str(turnCount)
     timeDelayDict = {}  
@@ -274,7 +264,6 @@ for turnCount in range(1, 11):
             timeDelayDict[roomName].update({"appPaused" : False})
         
         if switchTime == -1 and strikerTime == -1 and keeperTime == -1 and nextSwitchTime == -1 and timeoutTime == -1:
-            # print("False")
             timeDelayDict[roomName].update({"turnCount" : False})
         else:
             timeDelayDict[roomName].update({"turnCount" : True})
@@ -297,6 +286,8 @@ for turnCount in range(1, 11):
 
     turnCountDict[turnCount] = timeDelayDict
 
+    # print("==========================")
+
 
 checkIndexStriker = 0
 totalIndexStiker = 0
@@ -315,7 +306,7 @@ totalGames = 0
 
 for turnCount in turnCountDict: 
     df = pd.DataFrame.from_dict(turnCountDict[turnCount]).transpose()
-    timeoutIndex = len(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & ((df["switchTurnDelay"] == "--") & df["turnCount"] == True)& (df["userGone"] == False)])
+    timeoutIndex = len(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["switchTurnDelay"] == "--") & (df["turnCount"] == True) & (df["userGone"] == False)])
     totalGames = len(df)
     timeoutIndexList.append(timeoutIndex)
     checkIndexTimeout = checkIndexTimeout + timeoutIndex
@@ -342,21 +333,17 @@ for turnCount in turnCountDict:
 
 
 turnCountList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# turnCountList = [1, 2, 3]
-
-
-
+# turnCountList = [1]
 serverHealthPercent = 100 - ((checkIndexStriker + checkIndexSwitchTurn + checkIndexTimeout)/(totalIndexStiker + totalIndexSwitchTurn + totalIndexTimeout) *  100)
 
 st.title("Server Health: " + str(serverHealthPercent) + "%")
 
-st.write("Percentage of games with no striker and keeper response and no timeout: " , timeoutIndexList[0]/totalGames * 100)
+st.write("Percentage of games with no striker and keeper response and no timeout: " , checkIndexTimeout/totalIndexTimeout * 100)
 
 turnCountdf = pd.DataFrame(timeoutIndexList, index = turnCountList)
 st.line_chart(turnCountdf)
 
-# print(len(roomNamesList))
-# print(len(userGoneHandlerDict))
+
 st.write(" Possible Events ")
 
 # userGonePercent = len(userGoneHandlerDict)/len(roomNamesList) *  100
@@ -383,12 +370,15 @@ st.write("stuck games")
 st.write(df[df["stuckGame"] == True])
 
 
+
+
+
 turnCount = st.text_input("Enter Turn Count: ", value="1")
 
 if turnCount in turnCountDict: 
     df = pd.DataFrame.from_dict(turnCountDict[turnCount]).transpose()
         # df = pd.to_timedelta(df["strikerDelay"])
-    st.table(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & ((df["switchTurnDelay"] == "--") & df["turnCount"] == True) & (df["userGone"] == False)])
+    st.table(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["switchTurnDelay"] == "--") & (df["turnCount"] == True) & (df["userGone"] == False)])
     m1 = df[df["strikerDelay"] != "--"]
     m2 = df[df["keeperDelay"] != "--" ]
     m3 = df[df["switchTurnDelay"] != "--"]
