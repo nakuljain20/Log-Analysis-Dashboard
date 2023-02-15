@@ -315,7 +315,7 @@ totalGames = 0
 
 for turnCount in turnCountDict: 
     df = pd.DataFrame.from_dict(turnCountDict[turnCount]).transpose()
-    timeoutIndex = len(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["turnCount"] == True)& (df["userGone"] == False)])
+    timeoutIndex = len(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & ((df["switchTurnDelay"] == "--") & df["turnCount"] == True)& (df["userGone"] == False)])
     totalGames = len(df)
     timeoutIndexList.append(timeoutIndex)
     checkIndexTimeout = checkIndexTimeout + timeoutIndex
@@ -388,7 +388,7 @@ turnCount = st.text_input("Enter Turn Count: ", value="1")
 if turnCount in turnCountDict: 
     df = pd.DataFrame.from_dict(turnCountDict[turnCount]).transpose()
         # df = pd.to_timedelta(df["strikerDelay"])
-    st.table(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["turnCount"] == True) & (df["userGone"] == False)])
+    st.table(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & ((df["switchTurnDelay"] == "--") & df["turnCount"] == True) & (df["userGone"] == False)])
     m1 = df[df["strikerDelay"] != "--"]
     m2 = df[df["keeperDelay"] != "--" ]
     m3 = df[df["switchTurnDelay"] != "--"]
