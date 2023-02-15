@@ -329,7 +329,7 @@ for turnCount in turnCountDict:
     m3 = pd.DataFrame(pd.to_timedelta(m3["switchTurnDelay"]))
 
 
-    timeDelta = pd.Timedelta(seconds=8, microseconds=500)
+    timeDelta = pd.Timedelta(seconds=10, microseconds=500)
     strikerIndex = len(m1[m1["strikerDelay"] > timeDelta])
     strikerIndexList.append(strikerIndex)
     checkIndexStriker = strikerIndex +  len(m1[m1["strikerDelay"] > timeDelta])
