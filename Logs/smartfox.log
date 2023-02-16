@@ -414,3 +414,5 @@ java.base/java.lang.Thread.run(Thread.java:829)
 16 Feb 2023 | 11:06:51,244 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 170, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:57906 }
 16 Feb 2023 | 11:06:51,244 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#163, Id: 163, Priv: 0, Sess: 203.200.25.244:57906 ) , SessionLen: 34121, Type: Unity / .Net
 16 Feb 2023 | 11:06:51,244 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+16 Feb 2023 | 11:22:48,681 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 171, Type: DEFAULT, Logged: No, IP: 203.200.25.244:32948 } on Server port: 9933 <---> 32948
+16 Feb 2023 | 11:22:48,947 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#164, Id: 164, Priv: 0, Sess: 203.200.25.244:32948 ) , Type: Unity / .Net
