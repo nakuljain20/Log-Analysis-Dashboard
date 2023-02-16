@@ -416,3 +416,23 @@ java.base/java.lang.Thread.run(Thread.java:829)
 16 Feb 2023 | 11:06:51,244 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
 16 Feb 2023 | 11:22:48,681 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 171, Type: DEFAULT, Logged: No, IP: 203.200.25.244:32948 } on Server port: 9933 <---> 32948
 16 Feb 2023 | 11:22:48,947 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#164, Id: 164, Priv: 0, Sess: 203.200.25.244:32948 ) , Type: Unity / .Net
+16 Feb 2023 | 11:23:16,123 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User logout: { Zone: UIExtension }, ( User Name: Guest#164, Id: 164, Priv: 0, Sess: 203.200.25.244:32948 ) , SessionLen: 27176, Type: Unity / .Net
+16 Feb 2023 | 11:23:16,588 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 172, Type: DEFAULT, Logged: No, IP: 203.200.25.244:32982 } on Server port: 9933 <---> 32982
+16 Feb 2023 | 11:23:16,839 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#165, Id: 165, Priv: 0, Sess: 203.200.25.244:32982 ) , Type: Unity / .Net
+16 Feb 2023 | 11:23:53,878 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 171, Type: DEFAULT, Logged: No, IP: 203.200.25.244:32948 }
+16 Feb 2023 | 11:23:56,391 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 173, Type: DEFAULT, Logged: No, IP: 203.200.25.244:33012 } on Server port: 9933 <---> 33012
+16 Feb 2023 | 11:23:56,397 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.bitswarm.exceptions.SessionReconnectionException: Session Reconnection failure. The passed Session is not managed by the ReconnectionManager: java.nio.channels.SocketChannel[connected local=/172.31.2.27:9933 remote=/203.200.25.244:33012]
+	com.smartfoxserver.bitswarm.sessions.DefaultReconnectionManager.reconnectSession(DefaultReconnectionManager.java:155)
+	com.smartfoxserver.bitswarm.sessions.DefaultSessionManager.reconnectSession(DefaultSessionManager.java:373)
+	com.smartfoxserver.v2.controllers.system.Handshake.execute(Handshake.java:68)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:191)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:146)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+16 Feb 2023 | 11:23:56,617 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 173, Type: DEFAULT, Logged: No, IP: 203.200.25.244:33012 }
