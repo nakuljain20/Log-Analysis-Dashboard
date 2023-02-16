@@ -338,10 +338,7 @@ serverHealthPercent = 100 - ((checkIndexStriker + checkIndexSwitchTurn + checkIn
 
 st.title("Server Health: " + str(serverHealthPercent) + "%")
 
-st.write("Percentage of games with no striker and keeper response and no timeout: " , checkIndexTimeout/totalIndexTimeout * 100)
 
-turnCountdf = pd.DataFrame(timeoutIndexList, index = turnCountList)
-st.line_chart(turnCountdf)
 
 
 st.write(" Possible Events ")
@@ -370,15 +367,17 @@ st.write("stuck games")
 st.write(df[df["stuckGame"] == True])
 
 
+st.write("Percentage of games with no striker and keeper response and no timeout: " , checkIndexTimeout/totalIndexTimeout * 100)
 
-
+turnCountdf = pd.DataFrame(timeoutIndexList, index = turnCountList)
+st.line_chart(turnCountdf)
 
 turnCount = st.text_input("Enter Turn Count: ", value="1")
 
 if turnCount in turnCountDict: 
     df = pd.DataFrame.from_dict(turnCountDict[turnCount]).transpose()
         # df = pd.to_timedelta(df["strikerDelay"])
-    st.table(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["switchTurnDelay"] == "--") & (df["turnCount"] == True) & (df["userGone"] == False)])
+    st.write(df[(df["strikerDelay"] == "--") & (df["timeOutDelay"] == "--") & (df["switchTurnDelay"] == "--") & (df["turnCount"] == True) & (df["userGone"] == False)])
     m1 = df[df["strikerDelay"] != "--"]
     m2 = df[df["keeperDelay"] != "--" ]
     m3 = df[df["switchTurnDelay"] != "--"]
@@ -395,6 +394,8 @@ if turnCount in turnCountDict:
     st.write("Total games: ", len(df))
 
     st.write("Percentage of stuck games: " , len(df[df["stuckGame"] == True]) / len(df) * 100)
+
+    st.write("Full Data for this turn Count")
     st.dataframe(df)
 else:
     st.write("Displaying data only for turn count <= 10")
