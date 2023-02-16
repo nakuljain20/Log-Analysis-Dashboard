@@ -346,3 +346,24 @@ java.base/java.lang.Thread.run(Thread.java:829)
 16 Feb 2023 | 10:12:48,705 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 158, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:51878 }
 16 Feb 2023 | 10:12:48,705 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#151, Id: 151, Priv: 0, Sess: 203.200.25.244:51878 ) , SessionLen: 39144, Type: Unity / .Net
 16 Feb 2023 | 10:12:48,705 | INFO  | SFSWorker:Ext:2 | Extensions |     | {BackendExtension}: user gone handler called 
+16 Feb 2023 | 10:30:34,693 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 159, Type: DEFAULT, Logged: No, IP: 203.200.25.244:55056 } on Server port: 9933 <---> 55056
+16 Feb 2023 | 10:30:36,102 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#152, Id: 152, Priv: 0, Sess: 203.200.25.244:55056 ) , Type: Unity / .Net
+16 Feb 2023 | 10:30:44,281 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 159, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:55056 }
+16 Feb 2023 | 10:30:44,281 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#152, Id: 152, Priv: 0, Sess: 203.200.25.244:55056 ) , SessionLen: 8179, Type: Unity / .Net
+16 Feb 2023 | 10:30:44,281 | INFO  | SFSWorker:Ext:4 | Extensions |     | {BackendExtension}: user gone handler called 
+16 Feb 2023 | 10:34:14,451 | INFO  | http-nio-8080-exec-3 | Extensions |     | {BackendExtension}: Himanshu -- inside handleInternalMessage 
+16 Feb 2023 | 10:34:34,585 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 160, Type: DEFAULT, Logged: No, IP: 203.200.25.244:55375 } on Server port: 9933 <---> 55375
+16 Feb 2023 | 10:34:35,693 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#153, Id: 153, Priv: 0, Sess: 203.200.25.244:55375 ) , Type: Unity / .Net
+16 Feb 2023 | 10:35:37,520 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 160, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:55375 }
+16 Feb 2023 | 10:35:37,520 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#153, Id: 153, Priv: 0, Sess: 203.200.25.244:55375 ) , SessionLen: 61827, Type: Unity / .Net
+16 Feb 2023 | 10:35:37,520 | INFO  | SFSWorker:Ext:3 | Extensions |     | {BackendExtension}: user gone handler called 
+16 Feb 2023 | 10:42:55,597 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 161, Type: DEFAULT, Logged: No, IP: 203.200.25.244:55990 } on Server port: 9933 <---> 55990
+16 Feb 2023 | 10:42:57,089 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#154, Id: 154, Priv: 0, Sess: 203.200.25.244:55990 ) , Type: Unity / .Net
+16 Feb 2023 | 10:45:14,192 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 161, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:55990 }
+16 Feb 2023 | 10:45:14,192 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#154, Id: 154, Priv: 0, Sess: 203.200.25.244:55990 ) , SessionLen: 137103, Type: Unity / .Net
+16 Feb 2023 | 10:45:14,192 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
+16 Feb 2023 | 10:46:17,190 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 162, Type: DEFAULT, Logged: No, IP: 203.200.25.244:56243 } on Server port: 9933 <---> 56243
+16 Feb 2023 | 10:46:18,684 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: UIExtension }, ( User Name: Guest#155, Id: 155, Priv: 0, Sess: 203.200.25.244:56243 ) , Type: Unity / .Net
+16 Feb 2023 | 10:48:24,312 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 162, Type: DEFAULT, Logged: Yes, IP: 203.200.25.244:56243 }
+16 Feb 2023 | 10:48:24,312 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: UIExtension }, ( User Name: Guest#155, Id: 155, Priv: 0, Sess: 203.200.25.244:56243 ) , SessionLen: 125628, Type: Unity / .Net
+16 Feb 2023 | 10:48:24,312 | INFO  | SFSWorker:Ext:1 | Extensions |     | {BackendExtension}: user gone handler called 
